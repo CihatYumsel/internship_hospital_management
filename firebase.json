@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "hastane-otomasyonu-2214a",
+          "appId": "1:870535581359:android:5e8a7d6d796de271e34e5a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "hastane-otomasyonu-2214a",
+          "configurations": {
+            "android": "1:870535581359:android:5e8a7d6d796de271e34e5a",
+            "ios": "1:870535581359:ios:9525d9ff7b9c3979e34e5a",
+            "macos": "1:870535581359:ios:9525d9ff7b9c3979e34e5a",
+            "web": "1:870535581359:web:912e9660fdd4e244e34e5a",
+            "windows": "1:870535581359:web:f2cf31cc93f833f2e34e5a"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

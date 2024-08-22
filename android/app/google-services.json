@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870535581359",
+    "project_id": "hastane-otomasyonu-2214a",
+    "storage_bucket": "hastane-otomasyonu-2214a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870535581359:android:5e8a7d6d796de271e34e5a",
+        "android_client_info": {
+          "package_name": "com.example.hastane_otomasyonu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS62naiBnQHoBZVtmLdzSCzDtkg_ddJqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
